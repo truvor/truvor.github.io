@@ -169,29 +169,32 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.title = 'angular-landing';
       this.linksList = [{
-        name: 'qwe',
-        url: 'http://'
+        name: 'Spotify',
+        url: 'https://open.spotify.com/album/3e0WoCXPhUWgx7Uwxw6AKo'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Apple Music',
+        url: 'https://music.apple.com/us/album/trinity-single/1570768047'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Yandex Music',
+        url: 'https://music.yandex.ru/album/16025760'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Pandora',
+        url: 'https://pandora.app.link/PGCogOktfhb'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Deezer',
+        url: 'https://deezer.page.link/AaKTRi4rpWxSdnuc8'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Youtube Music',
+        url: 'https://music.youtube.com/playlist?list=OLAK5uy_lPgs04Fb2GiYD2bzft4CdjCorWkoEAYgA&feature=share'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Vkontakte',
+        url: 'https://vk.com/music/album/-2000776812_11776812_a2932fc3ea2827674c'
       }, {
-        name: 'qwe',
-        url: 'http://'
+        name: 'Soundcloud',
+        url: 'https://soundcloud.com/risky4real/sets/trinity'
+      }, {
+        name: 'Lyrics on Genius',
+        url: 'https://genius.com/albums/Risky4real/Trinity'
       }];
     };
 
@@ -204,7 +207,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-root"]],
       decls: 10,
       vars: 1,
-      consts: [["src", "./assets/R4R-trinity.png", "alt", "album artwork", 1, "cover"], [3, "name", "url", 4, "ngFor", "ngForOf"], [3, "name", "url"]],
+      consts: [["src", "./assets/R4R-trinity_recoded.png", "alt", "album artwork", 1, "cover"], [3, "name", "url", 4, "ngFor", "ngForOf"], [3, "name", "url"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "main");
@@ -231,7 +234,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "footer");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Made free of any tracking ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " The web site is made free of any tracking ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -245,7 +248,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _item_item_component__WEBPACK_IMPORTED_MODULE_2__["ItemComponent"]],
-      styles: ["main[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  text-align: center;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  width: 90vw;\r\n}\r\n\r\nfooter[_ngcontent-%COMP%] {\r\n  margin-top: 0.3em;\r\n}\r\n\r\n.cover[_ngcontent-%COMP%] {\r\n  margin-bottom: 0.3em;\r\n}\r\n\r\n@media (min-width: 960px) {\r\n  main[_ngcontent-%COMP%]{\r\n    width: 15vw;\r\n  }\r\n}\r\n\r\nh1[_ngcontent-%COMP%], h3[_ngcontent-%COMP%] {\r\n  color:beige;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLHVCQUF1QjtFQUN2QixzQkFBc0I7RUFDdEIsV0FBVztBQUNiOztBQUVBO0VBQ0UsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0U7SUFDRSxXQUFXO0VBQ2I7QUFDRjs7QUFFQTtFQUNFLFdBQVc7QUFDYiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWFpbiB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICB3aWR0aDogOTB2dztcclxufVxyXG5cclxuZm9vdGVyIHtcclxuICBtYXJnaW4tdG9wOiAwLjNlbTtcclxufVxyXG5cclxuLmNvdmVyIHtcclxuICBtYXJnaW4tYm90dG9tOiAwLjNlbTtcclxufVxyXG5cclxuQG1lZGlhIChtaW4td2lkdGg6IDk2MHB4KSB7XHJcbiAgbWFpbntcclxuICAgIHdpZHRoOiAxNXZ3O1xyXG4gIH1cclxufVxyXG5cclxuaDEsIGgzIHtcclxuICBjb2xvcjpiZWlnZTtcclxufSJdfQ== */"]
+      styles: ["main[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  text-align: center;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  width: 90vw;\r\n}\r\n\r\nfooter[_ngcontent-%COMP%] {\r\n  margin-top: 0.3em;\r\n}\r\n\r\nh1[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], footer[_ngcontent-%COMP%] {\r\n  color: beige;\r\n}\r\n\r\n.cover[_ngcontent-%COMP%] {\r\n  margin-bottom: 0.3em;\r\n}\r\n\r\n@media (min-width: 960px) {\r\n  main[_ngcontent-%COMP%]{\r\n    width: 20vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLHVCQUF1QjtFQUN2QixzQkFBc0I7RUFDdEIsV0FBVztBQUNiOztBQUVBO0VBQ0UsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsWUFBWTtBQUNkOztBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0U7SUFDRSxXQUFXO0VBQ2I7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWFpbiB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICB3aWR0aDogOTB2dztcclxufVxyXG5cclxuZm9vdGVyIHtcclxuICBtYXJnaW4tdG9wOiAwLjNlbTtcclxufVxyXG5cclxuaDEsIGgzLCBmb290ZXIge1xyXG4gIGNvbG9yOiBiZWlnZTtcclxufVxyXG5cclxuLmNvdmVyIHtcclxuICBtYXJnaW4tYm90dG9tOiAwLjNlbTtcclxufVxyXG5cclxuQG1lZGlhIChtaW4td2lkdGg6IDk2MHB4KSB7XHJcbiAgbWFpbntcclxuICAgIHdpZHRoOiAyMHZ3O1xyXG4gIH1cclxufVxyXG4iXX0= */"]
     });
     /*@__PURE__*/
 
@@ -623,7 +626,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! E:\development\JS\r4r-landing\src\main.ts */
+    /*! C:\Projects\r4r-landing\src\main.ts */
     "./src/main.ts");
     /***/
   }

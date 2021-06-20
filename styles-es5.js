@@ -16,13 +16,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "body {\n  background-color: #46443C;\n  font-family: 'Roboto', sans-serif;\n}\n\napp-root {\n  display: flex;\n  justify-content: center;\n}\n", "", {
+    exports.push([module.i, "body {\r\n  background-color: #46443C;\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\napp-root {\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n", "", {
       "version": 3,
       "sources": ["styles.css"],
       "names": [],
       "mappings": "AAAA;EACE,yBAAyB;EACzB,iCAAiC;AACnC;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB",
       "file": "styles.css",
-      "sourcesContent": ["body {\n  background-color: #46443C;\n  font-family: 'Roboto', sans-serif;\n}\n\napp-root {\n  display: flex;\n  justify-content: center;\n}\n"]
+      "sourcesContent": ["body {\r\n  background-color: #46443C;\r\n  font-family: 'Roboto', sans-serif;\r\n}\r\n\r\napp-root {\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n"]
     }]); // Exports
 
     module.exports = exports;
@@ -464,7 +464,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! E:\development\JS\r4r-landing\src\styles.css */
+    /*! C:\Projects\r4r-landing\src\styles.css */
     "./src/styles.css");
     /***/
   }
