@@ -193,6 +193,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         name: 'Soundcloud',
         url: 'https://soundcloud.com/risky4real/sets/trinity'
       }, {
+        name: 'Bandcamp',
+        url: 'https://risk4real.bandcamp.com/album/trinity'
+      }, {
         name: 'Lyrics on Genius',
         url: 'https://genius.com/albums/Risky4real/Trinity'
       }];
