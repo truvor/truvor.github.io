@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
+}
+
+footer {
+  margin-top: 0.3em;
+}
+
+h1, h2, footer {
+  color: beige;
+}
+
+.cover {
+  margin-bottom: 0.3em;
+}
+
+@media (min-width: 960px) {
+  main{
+    width: 20vw;
+  }
+}
