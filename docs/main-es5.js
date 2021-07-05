@@ -5,8 +5,6 @@
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
   (self["webpackChunkangular_landing"] = self["webpackChunkangular_landing"] || []).push([["main"], {
     /***/
     8255:
@@ -89,19 +87,18 @@
         _classCallCheck(this, _AppRoutingModule);
       };
 
-      _defineProperty(_AppRoutingModule, "\u0275fac", function AppRoutingModule_Factory(t) {
+      _AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) {
         return new (t || _AppRoutingModule)();
-      });
+      };
 
-      _defineProperty(_AppRoutingModule, "\u0275mod", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
+      _AppRoutingModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
         type: _AppRoutingModule
-      }));
-
-      _defineProperty(_AppRoutingModule, "\u0275inj", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
+      });
+      _AppRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
         imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forRoot(routes, {
           relativeLinkResolution: 'legacy'
         })], _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
-      }));
+      });
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](_AppRoutingModule, {
@@ -172,9 +169,8 @@
       var _AppComponent = function _AppComponent() {
         _classCallCheck(this, _AppComponent);
 
-        _defineProperty(this, "title", 'angular-landing');
-
-        _defineProperty(this, "linksList", [{
+        this.title = 'angular-landing';
+        this.linksList = [{
           name: 'Spotify',
           url: 'https://open.spotify.com/album/3e0WoCXPhUWgx7Uwxw6AKo'
         }, {
@@ -204,16 +200,14 @@
         }, {
           name: 'Lyrics on Genius',
           url: 'https://genius.com/albums/Risky4real/Trinity'
-        }]);
+        }];
       };
-      /***/
 
-
-      _defineProperty(_AppComponent, "\u0275fac", function AppComponent_Factory(t) {
+      _AppComponent.ɵfac = function AppComponent_Factory(t) {
         return new (t || _AppComponent)();
-      });
+      };
 
-      _defineProperty(_AppComponent, "\u0275cmp", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
+      _AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
         type: _AppComponent,
         selectors: [["app-root"]],
         decls: 10,
@@ -260,7 +254,8 @@
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf, _item_item_component__WEBPACK_IMPORTED_MODULE_0__.ItemComponent],
         styles: ["main[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  text-align: center;\r\n  justify-content: center;\r\n  flex-direction: column;\r\n  width: 90vw;\r\n}\r\n\r\nfooter[_ngcontent-%COMP%] {\r\n  margin-top: 0.3em;\r\n}\r\n\r\nh1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], footer[_ngcontent-%COMP%] {\r\n  color: beige;\r\n}\r\n\r\n.cover[_ngcontent-%COMP%] {\r\n  margin-bottom: 0.3em;\r\n}\r\n\r\n@media (min-width: 960px) {\r\n  main[_ngcontent-%COMP%]{\r\n    width: 20vw;\r\n  }\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQix1QkFBdUI7RUFDdkIsc0JBQXNCO0VBQ3RCLFdBQVc7QUFDYjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLFlBQVk7QUFDZDs7QUFFQTtFQUNFLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFO0lBQ0UsV0FBVztFQUNiO0FBQ0YiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJtYWluIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIHdpZHRoOiA5MHZ3O1xyXG59XHJcblxyXG5mb290ZXIge1xyXG4gIG1hcmdpbi10b3A6IDAuM2VtO1xyXG59XHJcblxyXG5oMSwgaDIsIGZvb3RlciB7XHJcbiAgY29sb3I6IGJlaWdlO1xyXG59XHJcblxyXG4uY292ZXIge1xyXG4gIG1hcmdpbi1ib3R0b206IDAuM2VtO1xyXG59XHJcblxyXG5AbWVkaWEgKG1pbi13aWR0aDogOTYwcHgpIHtcclxuICBtYWlue1xyXG4gICAgd2lkdGg6IDIwdnc7XHJcbiAgfVxyXG59XHJcbiJdfQ== */"]
-      }));
+      });
+      /***/
     },
 
     /***/
@@ -329,19 +324,18 @@
         _classCallCheck(this, _AppModule);
       };
 
-      _defineProperty(_AppModule, "\u0275fac", function AppModule_Factory(t) {
+      _AppModule.ɵfac = function AppModule_Factory(t) {
         return new (t || _AppModule)();
-      });
+      };
 
-      _defineProperty(_AppModule, "\u0275mod", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
+      _AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
         type: _AppModule,
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent]
-      }));
-
-      _defineProperty(_AppModule, "\u0275inj", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({
+      });
+      _AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({
         providers: [],
         imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule]]
-      }));
+      });
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](_AppModule, {
@@ -388,18 +382,15 @@
       var _ItemComponent = function _ItemComponent() {
         _classCallCheck(this, _ItemComponent);
 
-        _defineProperty(this, "name", '');
-
-        _defineProperty(this, "url", '');
+        this.name = '';
+        this.url = '';
       };
-      /***/
 
-
-      _defineProperty(_ItemComponent, "\u0275fac", function ItemComponent_Factory(t) {
+      _ItemComponent.ɵfac = function ItemComponent_Factory(t) {
         return new (t || _ItemComponent)();
-      });
+      };
 
-      _defineProperty(_ItemComponent, "\u0275cmp", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      _ItemComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: _ItemComponent,
         selectors: [["app-item"]],
         inputs: {
@@ -427,7 +418,8 @@
           }
         },
         styles: ["a[_ngcontent-%COMP%] {\r\n  color: inherit;\r\n  text-decoration: none;\r\n}\r\n\r\n[_nghost-%COMP%] {\r\n  display: flex;\r\n  margin: 0.3em 0;\r\n}\r\n\r\n.item[_ngcontent-%COMP%] {\r\n  background-color: #F0D619;\r\n  border-style: solid;\r\n  border-width: thin;\r\n  padding: 0.5em 0;\r\n  transition-duration: 0.2ms;\r\n  width: 100%;\r\n}\r\n\r\n.item[_ngcontent-%COMP%]:hover {\r\n  background-color: aquamarine;\r\n  color: #131B1D;\r\n}\r\n\r\n.item[_ngcontent-%COMP%]:active {\r\n  background-color: aqua;\r\n  color: #818a91;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIml0ZW0uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7RUFDRSxjQUFjO0VBQ2QscUJBQXFCO0FBQ3ZCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGVBQWU7QUFDakI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsbUJBQW1CO0VBQ25CLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsMEJBQTBCO0VBQzFCLFdBQVc7QUFDYjs7QUFFQTtFQUNFLDRCQUE0QjtFQUM1QixjQUFjO0FBQ2hCOztBQUNBO0VBQ0Usc0JBQXNCO0VBQ3RCLGNBQWM7QUFDaEIiLCJmaWxlIjoiaXRlbS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmEge1xyXG4gIGNvbG9yOiBpbmhlcml0O1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuOmhvc3Qge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgbWFyZ2luOiAwLjNlbSAwO1xyXG59XHJcblxyXG4uaXRlbSB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI0YwRDYxOTtcclxuICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gIGJvcmRlci13aWR0aDogdGhpbjtcclxuICBwYWRkaW5nOiAwLjVlbSAwO1xyXG4gIHRyYW5zaXRpb24tZHVyYXRpb246IDAuMm1zO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uaXRlbTpob3ZlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogYXF1YW1hcmluZTtcclxuICBjb2xvcjogIzEzMUIxRDtcclxufVxyXG4uaXRlbTphY3RpdmUge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IGFxdWE7XHJcbiAgY29sb3I6ICM4MThhOTE7XHJcbn1cclxuIl19 */"]
-      }));
+      });
+      /***/
     },
 
     /***/
@@ -474,14 +466,12 @@
 
         return _LinkListComponent;
       }();
-      /***/
 
-
-      _defineProperty(_LinkListComponent, "\u0275fac", function LinkListComponent_Factory(t) {
+      _LinkListComponent.ɵfac = function LinkListComponent_Factory(t) {
         return new (t || _LinkListComponent)();
-      });
+      };
 
-      _defineProperty(_LinkListComponent, "\u0275cmp", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      _LinkListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: _LinkListComponent,
         selectors: [["app-link-list"]],
         decls: 2,
@@ -496,7 +486,8 @@
           }
         },
         styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJsaW5rLWxpc3QuY29tcG9uZW50LmNzcyJ9 */"]
-      }));
+      });
+      /***/
     },
 
     /***/
