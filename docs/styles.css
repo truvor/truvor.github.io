@@ -1,0 +1,10 @@
+body {
+  background-color: #46443C;
+  font-family: 'Roboto', sans-serif;
+}
+
+app-root {
+  display: flex;
+  justify-content: center;
+}
+
