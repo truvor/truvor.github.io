@@ -15,6 +15,7 @@ h1, h2, footer {
 }
 
 .cover {
+  width: 20vw;
   margin-bottom: 0.3em;
 }
 
