@@ -15,12 +15,16 @@ h1, h2, footer {
 }
 
 .cover {
-  width: 20vw;
+  width: 90vw;
   margin-bottom: 0.3em;
 }
 
 @media (min-width: 960px) {
-  main{
+  main {
+    width: 20vw;
+  }
+
+  .cover {
     width: 20vw;
   }
 }
