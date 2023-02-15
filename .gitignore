@@ -22,6 +22,7 @@ speed-measure-plugin*.json
 *.sublime-workspace
 
 # misc
+/.angular/cache
 /connect.lock
 /coverage
 /libpeerconnection.log
