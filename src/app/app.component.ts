@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-landing';
+  title = 'risky-landing';
   linksList = [
     {name: 'Spotify', url: 'https://open.spotify.com/album/3e0WoCXPhUWgx7Uwxw6AKo'},
     {name: 'Apple Music', url: 'https://music.apple.com/us/album/trinity-single/1570768047'},
