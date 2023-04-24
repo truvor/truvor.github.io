@@ -1,0 +1,10 @@
+.cover {
+    width: 90vw;
+    margin-bottom: 0.3em;
+}
+
+@media (min-width: 960px) {
+    .cover {
+        width: 20vw;
+    }
+}

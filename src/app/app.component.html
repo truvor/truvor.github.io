@@ -1,13 +1,23 @@
+<section class="top-nav">
+  <div>
+    Logo Here
+  </div>
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+  <ul class="menu">
+    <li> <a routerLink="/trinity" routerLinkActive="active">Trinity</a></li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four</li>
+    <li>Five</li>
+  </ul>
+</section>
+
 <main>
 
-  <!-- Resources -->
-  <header>
-    <h1>Trinity</h1>
-    <h2>Risky4real</h2>
-  </header>
-
-  <img class='cover' src='./assets/R4R-trinity_recoded.png' alt='album artwork'/>
-  <app-item *ngFor='let item of linksList' [name]="item.name" [url]="item.url"></app-item>
+  <router-outlet></router-outlet>
 
   <footer>
     The web site is made free of any tracking
