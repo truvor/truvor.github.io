@@ -6,7 +6,8 @@ import { MixtapeComponent } from './mixtape/mixtape.component';
 
 const routes: Routes = [
   {path: 'trinity', component: TrinityComponent},
-  {path: 'mixtape', component: MixtapeComponent}
+  {path: 'mixtape', component: MixtapeComponent},
+  {path: '', redirectTo: '/trinity', pathMatch: 'full'}
 ];
 
 @NgModule({
