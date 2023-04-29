@@ -54,7 +54,7 @@ html, body {
   background-color: #00BAF0;
   background: linear-gradient(to left, #f46b45, #eea849);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
+  color: white;
   height: 50px;
   padding: 1em;
 }
@@ -90,7 +90,7 @@ html, body {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: white;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -161,4 +161,20 @@ html, body {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+}
+
+li > .whitened-link {
+  color: white;
+}
+
+.grey-link:focus, .grey-link:hover, .grey-link:active {
+  color: white;
+}
+
+.grey-link {
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+  color: #e7e7e7;
 }
