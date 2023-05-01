@@ -7,7 +7,7 @@ import { MixtapeComponent } from './mixtape/mixtape.component';
 const routes: Routes = [
   {path: 'trinity', component: TrinityComponent},
   {path: 'mixtape', component: MixtapeComponent},
-  {path: 'third', component: TrinityComponent},
+  {path: 'writing', component: TrinityComponent},
   {path: '', redirectTo: '/trinity', pathMatch: 'full'}
 ];
 

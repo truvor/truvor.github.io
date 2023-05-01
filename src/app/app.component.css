@@ -5,28 +5,18 @@ main {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  width: 90vw;
 }
 
 footer {
   margin-top: 0.3em;
 }
 
-h1, h2, footer {
+footer {
   color: beige;
-}
-
-.cover {
-  width: 90vw;
-  margin-bottom: 0.3em;
 }
 
 @media (min-width: 960px) {
   main {
-    width: 20vw;
-  }
-
-  .cover {
     width: 20vw;
   }
 }
@@ -51,7 +41,6 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
   background: linear-gradient(to left, #f46b45, #eea849);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
@@ -64,7 +53,10 @@ html, body {
   flex-direction: row;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
+  font-size: 1.2rem;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .menu > li {
@@ -129,12 +121,13 @@ html, body {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 58px;
     left: 0;
     flex-direction: column;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   #menu-toggle ~ .menu li {
     height: 0;
