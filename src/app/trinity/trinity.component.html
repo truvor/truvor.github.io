@@ -1,2 +1,4 @@
 <img class='cover' src='./assets/R4R-trinity_recoded.png' alt='album artwork'/>
-<app-item *ngFor='let item of linksList' [name]="item.name" [url]="item.url"></app-item>
+<div class="button-grid">
+    <app-item *ngFor='let item of linksList' [name]="item.name" [url]="item.url"></app-item>
+</div>
