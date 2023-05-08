@@ -7,6 +7,7 @@ import { LinkListComponent } from './link-list/link-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TrinityComponent } from './trinity/trinity.component';
 import { MixtapeComponent } from './mixtape/mixtape.component';
+import { MemosComponent } from './memos/memos.component';
 
 @NgModule({
   declarations: [
@@ -14,12 +15,13 @@ import { MixtapeComponent } from './mixtape/mixtape.component';
     ItemComponent,
     LinkListComponent,
     TrinityComponent,
-    MixtapeComponent
+    MixtapeComponent,
+    MemosComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
