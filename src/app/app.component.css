@@ -13,12 +13,6 @@ footer {
   color: #e3dcbc;
 }
 
-@media (min-width: 960px) {
-  main {
-    width: 20vw;
-  }
-}
-
 h2 {
   vertical-align: center;
   text-align: center;
