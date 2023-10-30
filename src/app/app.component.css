@@ -176,3 +176,7 @@ li > .whitened-link {
   transition-timing-function: linear;
   color: #e7e7e7;
 }
+
+.email-link {
+  color: rgb(56, 198, 242);
+}
