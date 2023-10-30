@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { TrinityComponent } from './trinity/trinity.component';
 import { MixtapeComponent } from './mixtape/mixtape.component';
 import { MemosComponent } from './memos/memos.component';
+import { CanalComponent } from './canal/canal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MemosComponent } from './memos/memos.component';
     LinkListComponent,
     TrinityComponent,
     MixtapeComponent,
-    MemosComponent
+    MemosComponent,
+    CanalComponent
   ],
     imports: [
         BrowserModule,
