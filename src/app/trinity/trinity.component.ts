@@ -13,7 +13,7 @@ export class TrinityComponent {
     {name: 'Deezer', url: 'https://deezer.page.link/AaKTRi4rpWxSdnuc8'},
     {name: 'Youtube', url: 'https://music.youtube.com/playlist?list=OLAK5uy_lPgs04Fb2GiYD2bzft4CdjCorWkoEAYgA&feature=share'},
     {name: 'Soundcloud', url: 'https://soundcloud.com/risky4real/sets/trinity'},
-    {name: 'Bandcamp', url: 'https://risk4real.bandcamp.com/album/trinity'},
+    {name: 'Bandcamp', url: 'https://risky4real.bandcamp.com/album/trinity'},
     {name: 'Genius', url: 'https://genius.com/albums/Risky4real/Trinity'},
   ];
 }
