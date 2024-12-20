@@ -9,6 +9,7 @@ import { TrinityComponent } from './trinity/trinity.component';
 import { MixtapeComponent } from './mixtape/mixtape.component';
 import { MemosComponent } from './memos/memos.component';
 import { CanalComponent } from './canal/canal.component';
+import { FeastComponent } from './feast/feast.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CanalComponent } from './canal/canal.component';
     TrinityComponent,
     MixtapeComponent,
     MemosComponent,
-    CanalComponent
+    CanalComponent,
+    FeastComponent
   ],
     imports: [
         BrowserModule,
