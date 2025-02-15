@@ -1,0 +1,15 @@
+.responsive-svg {
+  height: 2.1rem;
+  width: 2.1rem;
+}
+
+.icon-link {
+  padding: 0.2rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.8rem;
+  background-color: #747167;
+}

@@ -10,6 +10,7 @@ import { MixtapeComponent } from './mixtape/mixtape.component';
 import { MemosComponent } from './memos/memos.component';
 import { CanalComponent } from './canal/canal.component';
 import { FeastComponent } from './feast/feast.component';
+import { MediaBannerComponent } from './media-banner/media-banner.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +23,11 @@ import { FeastComponent } from './feast/feast.component';
     CanalComponent,
     FeastComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    MediaBannerComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
