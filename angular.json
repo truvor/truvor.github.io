@@ -95,7 +95,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "dir": "dist/risky-landing"
+            "dir": "dist/risky-landing/browser"
           }
         }
       }
