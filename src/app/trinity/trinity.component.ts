@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-trinity',
-  templateUrl: './trinity.component.html',
-  styleUrls: ['./trinity.component.css']
+    selector: 'app-trinity',
+    templateUrl: './trinity.component.html',
+    styleUrls: ['./trinity.component.css'],
+    standalone: false
 })
 export class TrinityComponent {
   linksList = [

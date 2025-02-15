@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-feast',
-  templateUrl: './feast.component.html',
-  styleUrls: ['./feast.component.css']
+    selector: 'app-feast',
+    templateUrl: './feast.component.html',
+    styleUrls: ['./feast.component.css'],
+    standalone: false
 })
 export class FeastComponent {
   linksList = [
