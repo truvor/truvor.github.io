@@ -8,8 +8,28 @@
 }
 
 .banner {
+  display:flex;
+  justify-content: space-between;
+  background-color: #747167;
+  padding-left: 1.8rem;
+}
+
+.media {
   display: flex;
   justify-content: flex-end;
   padding-right: 1.8rem;
-  background-color: #747167;
+}
+
+.announcement {
+  align-content: center;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #b7ff00,
+    0 0 82px #b7ff00,
+    0 0 92px #b7ff00,
+    0 0 102px #b7ff00,
+    0 0 151px #b7ff00;
 }

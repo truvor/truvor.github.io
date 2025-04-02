@@ -9,7 +9,7 @@ import { TrinityComponent } from './trinity/trinity.component';
 import { MixtapeComponent } from './mixtape/mixtape.component';
 import { MemosComponent } from './memos/memos.component';
 import { CanalComponent } from './canal/canal.component';
-import { FeastComponent } from './feast/feast.component';
+import { AlbumComponent } from './album/album.component';
 import { MediaBannerComponent } from './media-banner/media-banner.component';
 
 @NgModule({
@@ -21,7 +21,7 @@ import { MediaBannerComponent } from './media-banner/media-banner.component';
     MixtapeComponent,
     MemosComponent,
     CanalComponent,
-    FeastComponent
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
