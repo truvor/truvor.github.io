@@ -17,6 +17,6 @@ export class CanalComponent {
     {name: 'Soundcloud', url: 'https://soundcloud.com/risky4real/canal-street'},
     {name: 'VK Music', url: 'https://vk.com/audio-2001392073_134392073'},
     {name: 'Yandex Music', url: 'https://music.yandex.ru/album/35144337/track/135545689'},
-    {name: 'Genius', url: 'https://genius.com/Risky4real-canal-street-lyrics'},
+    {name: 'Lyrics', url: 'https://genius.com/Risky4real-canal-street-lyrics'},
   ];
 }
