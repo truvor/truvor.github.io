@@ -1,4 +1,6 @@
 <img class='cover' src='./assets/R4R-ALBUM-recoded.png' alt='album artwork'/>
 <div class="button-grid">
-  <app-item *ngFor='let item of linksList' [name]="item.name" [url]="item.url"></app-item>
+  @for (item of linksList; track item.name) {
+    <app-item [name]="item.name" [url]="item.url"></app-item>
+  }
 </div>
