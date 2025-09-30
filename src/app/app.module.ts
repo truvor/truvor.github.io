@@ -11,11 +11,12 @@ import { MemosComponent } from './memos/memos.component';
 import { CanalComponent } from './canal/canal.component';
 import { AlbumComponent } from './album/album.component';
 import { MediaBannerComponent } from './media-banner/media-banner.component';
+import {CardComponent} from "./card/card.component";
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
     AppComponent,
-    ItemComponent,
     LinkListComponent,
     TrinityComponent,
     MixtapeComponent,
@@ -26,9 +27,16 @@ import { MediaBannerComponent } from './media-banner/media-banner.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MediaBannerComponent
+    MediaBannerComponent,
+    CardComponent,
+    ItemComponent,
+    NgOptimizedImage
   ],
   providers: [],
+  exports: [
+    CardComponent,
+    ItemComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

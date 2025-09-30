@@ -1,6 +1,4 @@
-<img class='cover' src='./assets/R4R-ALBUM-recoded.png' alt='album artwork'/>
-<div class="button-grid">
-  @for (item of linksList; track item.name) {
-    <app-item [name]="item.name" [url]="item.url"></app-item>
-  }
-</div>
+<app-card [linksList]="linksList">
+  <img class='cover' ngSrc='./assets/R4R-ALBUM-recoded.png' alt='album artwork'
+       height="600" width="600"/>
+</app-card>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import linksList from '../../assets/data/link-data/album.json';
 
 @Component({
     selector: 'app-album',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
     standalone: false
 })
 export class AlbumComponent {
-  linksList = [
+  linksList = linksList; /*[
     {name: 'Spotify', url: 'https://open.spotify.com/album/0FT3N9Ys1N6DSoPJCTQx5V?si=Nm2UfOvxSRuBRdSTwp7PYw'},
     {name: 'Apple', url: 'https://music.apple.com/us/album/wooden-city/1802287086'},
     {name: 'YT.Music', url: 'https://music.youtube.com/playlist?list=OLAK5uy_ldzGY2XFEjsYPKfKhooZPp-n2SimIbuZs&si=QX2cygX-JNfV2us-'},
@@ -22,5 +23,5 @@ export class AlbumComponent {
     {name: 'Lyrics', url: 'https://genius.com/albums/Risky4real/Wooden-city'},
     {name: 'Ru Lyrics', url: 'https://genius.com/albums/Genius-russian-translations/Risky4real-wooden-city'},
     {name: 'Party Sign-up', url: 'https://www.bandsintown.com/e/106655421-risky4real-at-peace-cafe'},
-  ];
+  ];*/
 }

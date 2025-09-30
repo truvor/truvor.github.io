@@ -1,0 +1,6 @@
+<ng-content/>
+<div class="button-grid">
+  @for (item of linksList(); track item.name) {
+    <app-item [name]="item.name" [url]="item.url"></app-item>
+  }
+</div>
