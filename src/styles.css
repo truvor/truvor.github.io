@@ -15,10 +15,3 @@ app-root {
   display: flex;
   justify-content: center;
 }
-
-.button-grid {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: auto;
-  grid-gap: 0.8rem;
-}

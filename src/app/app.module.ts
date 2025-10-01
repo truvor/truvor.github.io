@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ItemComponent } from './item/item.component';
-import { LinkListComponent } from './link-list/link-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TrinityComponent } from './trinity/trinity.component';
 import { MixtapeComponent } from './mixtape/mixtape.component';
@@ -17,7 +16,6 @@ import {NgOptimizedImage} from "@angular/common";
 @NgModule({
   declarations: [
     AppComponent,
-    LinkListComponent,
     TrinityComponent,
     MixtapeComponent,
     MemosComponent,
