@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {umamiAttr} from "./lib/umami";
 
 @Component({
     selector: 'app-root',
@@ -26,4 +27,5 @@ export class AppComponent implements OnInit {
       burger.checked = false;
     }
   }
+  protected readonly umamiAttr = umamiAttr;
 }

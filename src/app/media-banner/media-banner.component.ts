@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import '../app.component.css';
+import {umamiAttr} from "../lib/umami";
 
 @Component({
   selector: 'media-banner',
@@ -12,5 +13,5 @@ import '../app.component.css';
   styleUrl: './media-banner.component.css'
 })
 export class MediaBannerComponent {
-
+  protected readonly umamiAttr = umamiAttr;
 }
