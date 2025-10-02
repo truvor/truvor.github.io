@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {umamiAttr} from "./lib/umami";
+import {environment} from "../environments/environment";
 
 @Component({
     selector: 'app-root',
@@ -18,6 +20,13 @@ export class AppComponent implements OnInit {
         burger.checked = false;
       }
     });
+
+    if (environment.production) {
+      const script = document.createElement('script');
+      script.src = "https://cloud.umami.is/script.js";
+      script.setAttribute('data-website-id', 'c25c8dcc-f73a-4fb7-9acd-1363cfdc63f0');
+      document.head.appendChild(script);
+    }
   }
 
   closeBurgerMenu = () => {
@@ -26,4 +35,5 @@ export class AppComponent implements OnInit {
       burger.checked = false;
     }
   }
+  protected readonly umamiAttr = umamiAttr;
 }

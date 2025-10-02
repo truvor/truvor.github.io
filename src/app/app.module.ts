@@ -6,7 +6,6 @@ import { ItemComponent } from './item/item.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TrinityComponent } from './trinity/trinity.component';
 import { MixtapeComponent } from './mixtape/mixtape.component';
-import { MemosComponent } from './memos/memos.component';
 import { CanalComponent } from './canal/canal.component';
 import { AlbumComponent } from './album/album.component';
 import { MediaBannerComponent } from './media-banner/media-banner.component';
@@ -18,7 +17,6 @@ import {NgOptimizedImage} from "@angular/common";
     AppComponent,
     TrinityComponent,
     MixtapeComponent,
-    MemosComponent,
     CanalComponent,
     AlbumComponent
   ],
