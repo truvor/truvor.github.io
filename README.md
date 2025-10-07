@@ -1,4 +1,4 @@
-This is the website that includes such works by Risk4rea1 as:
+This is the website that includes such works by Risky4real as:
 - Wooden City, the debut album
 - Canal Street, the single
 - Trinity, the EP
