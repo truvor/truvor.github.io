@@ -8,8 +8,8 @@ describe('CanalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CanalComponent ]
-    })
+    imports: [CanalComponent]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(CanalComponent);

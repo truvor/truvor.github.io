@@ -13,26 +13,24 @@ import {CardComponent} from "./card/card.component";
 import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TrinityComponent,
-    MixtapeComponent,
-    CanalComponent,
-    AlbumComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MediaBannerComponent,
-    CardComponent,
-    ItemComponent,
-    NgOptimizedImage
-  ],
-  providers: [],
-  exports: [
-    CardComponent,
-    ItemComponent
-  ],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        MediaBannerComponent,
+        CardComponent,
+        ItemComponent,
+        NgOptimizedImage,
+        TrinityComponent,
+        MixtapeComponent,
+        CanalComponent,
+        AlbumComponent
+    ],
+    providers: [],
+    exports: [
+        CardComponent,
+        ItemComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

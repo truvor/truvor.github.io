@@ -8,8 +8,8 @@ describe('TrinityComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TrinityComponent ]
-    })
+    imports: [TrinityComponent]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(TrinityComponent);
