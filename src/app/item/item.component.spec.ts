@@ -1,16 +1,22 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
 
-import { ItemComponent } from './item.component';
+import { ItemComponent } from "./item.component";
+import { ActivatedRoute } from "@angular/router";
 
-describe('ItemComponent', () => {
+describe("ItemComponent", () => {
   let component: ItemComponent;
   let fixture: ComponentFixture<ItemComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-    imports: [ItemComponent]
-})
-    .compileComponents();
+      imports: [ItemComponent],
+      providers: [
+        {
+          provide: ActivatedRoute,
+          useValue: { snapshot: { params: {}, url: [] } },
+        },
+      ],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +25,7 @@ describe('ItemComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
