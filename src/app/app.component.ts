@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import {umamiAttr} from "./lib/umami";
 import {environment} from "../environments/environment";
+import { RouterLinkActive, RouterLink, RouterOutlet } from '@angular/router';
+import { MediaBannerComponent } from './media-banner/media-banner.component';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    standalone: false
+    imports: [RouterLinkActive, RouterLink, MediaBannerComponent, RouterOutlet]
 })
 export class AppComponent implements OnInit {
   title = 'risky-landing';
