@@ -7,8 +7,8 @@ describe('MixtapeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MixtapeComponent ]
-    })
+    imports: [MixtapeComponent]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(MixtapeComponent);
