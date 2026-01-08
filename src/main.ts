@@ -1,14 +1,14 @@
-import {
-  enableProdMode,
-  importProvidersFrom,
-  provideZonelessChangeDetection,
-} from "@angular/core";
+import { enableProdMode, provideZonelessChangeDetection } from "@angular/core";
 
 import { environment } from "./environments/environment";
-import { BrowserModule, bootstrapApplication } from "@angular/platform-browser";
-import { AppRoutingModule } from "./app/app-routing.module";
-import { NgOptimizedImage } from "@angular/common";
+import { bootstrapApplication } from "@angular/platform-browser";
+import {
+  provideRouter,
+  withEnabledBlockingInitialNavigation,
+} from "@angular/router";
+
 import { AppComponent } from "./app/app.component";
+import { routes } from "./app/routes";
 
 if (environment.production) {
   enableProdMode();
@@ -16,7 +16,7 @@ if (environment.production) {
 
 bootstrapApplication(AppComponent, {
   providers: [
+    provideRouter(routes, withEnabledBlockingInitialNavigation()),
     provideZonelessChangeDetection(),
-    importProvidersFrom(BrowserModule, AppRoutingModule, NgOptimizedImage),
   ],
 }).catch((err) => console.error(err));
