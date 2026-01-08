@@ -1,7 +1,7 @@
 import {
   enableProdMode,
   importProvidersFrom,
-  provideZoneChangeDetection,
+  provideZonelessChangeDetection,
 } from "@angular/core";
 
 import { environment } from "./environments/environment";
@@ -16,7 +16,7 @@ if (environment.production) {
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideZoneChangeDetection(),
+    provideZonelessChangeDetection(),
     importProvidersFrom(BrowserModule, AppRoutingModule, NgOptimizedImage),
   ],
 }).catch((err) => console.error(err));
